@@ -20,10 +20,11 @@ Participated two national programming camp
 >Trained on algorithms, data structures, graph, dynamic programming, team contest and online problem solving
 
 **Onsite Contest**
+
 Participated in some national level and inter university contests. Some of these are-
->- ACM ICPC Dhaka Regional Contest, 2017 [Team: BSMRSTU_Volcano, Position: 24/150]
->- IUT Inter University Programming Contest, 2017 [Team: BSMRSTU_Volcano, Position: 68/120]
->- NCPC, 2017 [Team: BSMRSTU_O(logn^3), Position: 85/150]
+- ACM ICPC Dhaka Regional Contest, 2017 [Team: BSMRSTU_Volcano, Position: 24/150]
+- IUT Inter University Programming Contest, 2017 [Team: BSMRSTU_Volcano, Position: 68/120]
+- NCPC, 2017 [Team: BSMRSTU_O(logn^3), Position: 85/150]
 
 **Online Problem Solving**
 
