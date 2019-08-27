@@ -1,2 +1,2 @@
-# Solution-of-Online-Judge-Problems-
+# Solution-of-Online-Judge-Problems
 Solutions of various online judge problems
