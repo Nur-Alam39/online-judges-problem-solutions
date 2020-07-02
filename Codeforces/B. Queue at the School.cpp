@@ -1,23 +1,25 @@
 #include<bits/stdc++.h>
 using namespace std;
+int Int(){int n;scanf("%d",&n);return n;}
 int main()
 {
-    int n,t;
-    char c;
-    scanf("%d%d%c",&n,&t,&c);
-    char a[n+1];
-    scanf("%s",&a);
-    for(int i=0;i<t;i++)
+    int n =Int();
+    int t =Int();
+    string a, b;
+    cin >> a;
+
+    for(int i = 1; i <= t; i++)
     {
-        for(int j=0;a[j];)
+        for(int j = 1; j < a.size(); j++)
         {
-            if(a[j]=='B'&&a[j+1]=='G')
-                swap(a[j],a[j+1]),j+=2;
-            else
+            if(a[j] == 'G' && a[j - 1] == 'B')
+            {
+                swap(a[j], a[j - 1]);
                 j++;
+            }
         }
     }
-    printf("%s",a);
+    cout << a;
     return 0;
 }
 

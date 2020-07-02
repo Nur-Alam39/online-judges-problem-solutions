@@ -1,22 +1,32 @@
 #include<bits/stdc++.h>
 using namespace std;
+int Int(){int n;scanf("%d",&n);return n;}
 int main()
 {
-    int y,m,d,i;
-    scanf("%d",&y);
-    for(i=y+1;;i++)
+    int n =Int();
+    n++;
+    for(;;)
     {
-        int m=i,d=0;
-        set<int>a;
-        while(m!=0)
+        int x = n, i = 0, f = 1;
+        int d[5];
+        while(x)
         {
-            a.insert(m%10);
-            d++;
-            m/=10;
+            d[i++] = x % 10;
+            x /= 10;
         }
-        if(d==a.size())
+        sort(d, d + 4);
+        for(int i = 1; i < 4; i++)
         {
-            printf("%d",i);
+            if(d[i] == d[i-1])
+            {
+                f = 0;
+                n++;
+                break;
+            }
+        }
+        if(f == 1)
+        {
+            printf("%d", n);
             break;
         }
     }
